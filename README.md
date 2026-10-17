@@ -39,7 +39,7 @@ A rebuild from a fresh download on 17 October 2026 gave files identical to those
 
 ## Licence
 
-The code is licensed under the Creative Commons Attribution 4.0 International licence (`LICENSE`). The VitalDB data are not covered by this licence; their use is governed by the VitalDB Data Use Agreement (https://vitaldb.net/dataset/).
+The code and the case ID lists are released under the MIT Licence (`LICENSE`). The VitalDB data are not covered by this licence; their use is governed by the VitalDB Data Use Agreement (https://vitaldb.net/dataset/).
 
 ## Citation
 
