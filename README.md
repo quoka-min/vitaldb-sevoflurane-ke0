@@ -15,7 +15,7 @@ Scripts that extract and process the data from VitalDB for the population pharma
 | `data_build/build_sevo_ke0_dataset.py` | Builds the 30-s NONMEM records of the analysis window for a list of cases |
 | `data_build/build_nonmem_dataset.py` | Track download from the VitalDB API and 1-s resampling |
 
-The processed data sets are not included, because the VitalDB Data Use Agreement does not allow the data to be passed on without the provider's consent. The case lists define the cohorts; the selection criteria are given in the paper.
+The source and processed data sets are not included in this repository. Instead, the scripts download source data directly from VitalDB and rebuild the processed data sets locally. The case lists define the cohorts; the selection criteria are given in the paper.
 
 ## Requirements
 
@@ -39,7 +39,7 @@ A rebuild from a fresh download on 17 October 2026 gave files identical to those
 
 ## Licence
 
-The code and the case ID lists are released under the MIT Licence (`LICENSE`). The VitalDB data are not covered by this licence; their use is governed by the VitalDB Data Use Agreement (https://vitaldb.net/dataset/).
+The code and the case ID lists are released under the MIT Licence (`LICENSE`). This licence does not cover VitalDB data. VitalDB's current [registration agreement](https://vitaldb.net/registration-agreement/) specifies the [Creative Commons Attribution 4.0 International licence (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/), which requires appropriate credit, a link to the licence and an indication of changes. Users should obtain the source data directly from VitalDB and follow its applicable terms of access and use.
 
 ## Citation
 
